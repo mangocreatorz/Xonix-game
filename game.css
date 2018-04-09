@@ -1,0 +1,63 @@
+.retry_button {
+    -fx-background-color: linear-gradient(to left, #de1979, #7b96ea);
+        -fx-font-family: Nevis;
+        -fx-font-size: 15px;
+        -fx-text-fill: #ffffff;
+        -fx-border: 90px;
+        -fx-border-radius: 40 10px;
+        -fx-border-color: linear-gradient(#e214a4, #0087ff);
+        -fx-background-radius: 40 10px;
+}
+
+.retry_button:hover {
+
+    -fx-arc-width: 50;
+    -fx-arc-height: 50;
+    -fx-effect: dropshadow(three-pass-box, #7b96ea, 100, 0, 0, 0);
+
+
+}
+
+.cont_button {
+
+-fx-background-color: linear-gradient(to left, #de1979, #7b96ea);
+        -fx-font-family: Nevis;
+        -fx-font-size: 15px;
+        -fx-text-fill: #ffffff;
+        -fx-border: 90px;
+        -fx-border-radius: 40 10px;
+        -fx-border-color: linear-gradient(#e214a4, #0087ff);
+        -fx-background-radius: 40 10px;
+}
+
+.cont_button:hover {
+
+    -fx-arc-width: 50;
+    -fx-arc-height: 50;
+    -fx-effect: dropshadow(three-pass-box, #7b96ea, 10, 0, 0, 0);
+
+
+}
+
+.backfromgame {
+
+-fx-background-color: linear-gradient(to left, #de1979, #7b96ea);
+        -fx-font-family: Nevis;
+        -fx-font-size: 15px;
+        -fx-text-fill: #ffffff;
+        -fx-border: 20px;
+        -fx-border-radius: 40 10px;
+        -fx-border-color: linear-gradient(#e214a4, #0087ff);
+        -fx-background-radius: 40 10px;
+}
+
+.backfromgame:hover {
+
+    -fx-arc-width: 5;
+    -fx-arc-height: 5;
+    -fx-effect: dropshadow(three-pass-box, #7b96ea, 10, 0, 0, 0);
+
+
+}
+
+

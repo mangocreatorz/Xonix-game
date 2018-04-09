@@ -1,0 +1,38 @@
+.stackpane {
+        -fx-background-image: url("main_back.png");
+
+
+}
+
+.button {
+    -fx-background-color: linear-gradient(to left, #de1979, #7b96ea);
+    -fx-font-family: Nevis;
+    -fx-font-size: 40px;
+    -fx-text-fill: #ffffff;
+    -fx-border: 90px;
+    -fx-border-radius: 40 10px;
+    -fx-border-color: linear-gradient(#e214a4, #0087ff);
+    -fx-background-radius: 40 10px;
+
+}
+
+
+.button: focused {
+    -fx-border-color: white, white;
+        -fx-border-width: 1, 1;
+        -fx-border-style: solid, segments(1, 1);
+        -fx-border-radius: 40 10px;
+        -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+.button:hover {
+    -fx-arc-width: 150;
+    -fx-arc-height: 150;
+    -fx-effect: dropshadow(three-pass-box, #7b96ea, 60, 0, 0, 0);
+
+}
